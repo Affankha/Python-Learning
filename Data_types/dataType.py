@@ -16,3 +16,8 @@ print(d)
 print(type(e))
 print(e)
 print(d[0])
+
+
+print("type chekcing")
+employee ={}
+print(type(employee))
