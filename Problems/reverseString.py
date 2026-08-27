@@ -1,15 +1,28 @@
-# reverse the string using different methods
+# # reverse the string using different methods
 
-x=["a", "b", "c"]
+# x=["a", "b", "c"]
 
-# print(x[::-1])      #using slicing
+# # print(x[::-1])      #using slicing
 
 
-#2nd way
+# #2nd way
 
-new_string =''
+# new_string =''
 
-for char in x:
-  new_string= char + new_string
+# for char in x:
+#   new_string= char + new_string
   
-print(new_string)
+# print(new_string)
+
+
+
+#other methods
+
+name = "Affan"
+
+reverse_string = name[::-1]
+
+for char in range(len(name)):
+  print(char)
+
+print(reverse_string)
